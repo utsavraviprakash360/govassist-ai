@@ -10,8 +10,6 @@ LANG_DATA = {
         "title": "🏛️ MyGov Scheme Assistant",
         "subtitle": "Your intelligent guide to discovering state and central financial schemes.",
         "progress_text": "Profile Assessment Progress",
-        "api_key_label": "Enter your Gemini API Key:",
-        "api_key_warn": "*(Required to generate your final report)*",
         "welcome": "Welcome! I am here to help you navigate available government schemes. To get started, what is your age?",
         "q_gender": "Got it. What is your gender? (Type: Male, Female, or Other)",
         "q_occupation": "What is your occupation? (E.g., Student, Farmer, Unorganized Worker, Unemployed, Other)",
@@ -22,7 +20,7 @@ LANG_DATA = {
         "q_insurance": "Do you already have life or health insurance? (Type: Yes or No)",
         "processing": "Perfect! I have all the details. Give me a moment to analyze the database...",
         "error_input": "⚠️ I didn't quite catch that. Please enter a valid number or text for the previous question.",
-        "api_error": "⚠️ Please enter your Gemini API Key in the sidebar to generate the final report.",
+        "api_error": "⚠️ API Key not found in server secrets. Please check Streamlit Cloud settings.",
         "spinner": "Analyzing rules engine and generating your report...",
         "reset_btn": "🔄 Start New Assessment"
     },
@@ -30,8 +28,6 @@ LANG_DATA = {
         "title": "🏛️ मायगॉव योजना सहायक",
         "subtitle": "राज्य और केंद्रीय वित्तीय योजनाओं को खोजने के लिए आपका बुद्धिमान मार्गदर्शक।",
         "progress_text": "प्रोफ़ाइल मूल्यांकन प्रगति",
-        "api_key_label": "अपनी जेमिनी एपीआई कुंजी दर्ज करें:",
-        "api_key_warn": "*(अंतिम रिपोर्ट तैयार करने के लिए आवश्यक)*",
         "welcome": "स्वागत है! मैं यहां आपको उपलब्ध सरकारी योजनाओं को खोजने में मदद करने के लिए हूं। शुरू करने के लिए, आपकी उम्र क्या है?",
         "q_gender": "समझ गया। आपका लिंग क्या है? (लिखें: पुरुष, महिला, या अन्य)",
         "q_occupation": "आपका व्यवसाय क्या है? (जैसे: छात्र, किसान, असंगठित मजदूर, बेरोजगार, अन्य)",
@@ -42,7 +38,7 @@ LANG_DATA = {
         "q_insurance": "क्या आपके पास पहले से ही जीवन या स्वास्थ्य बीमा है? (लिखें: हाँ या नहीं)",
         "processing": "बेहतरीन! मेरे पास सभी विवरण हैं। मुझे डेटाबेस का विश्लेषण करने के लिए एक क्षण दें...",
         "error_input": "⚠️ मैं समझ नहीं पाया। कृपया पिछले प्रश्न के लिए एक मान्य संख्या या शब्द दर्ज करें।",
-        "api_error": "⚠️ अंतिम रिपोर्ट जनरेट करने के लिए कृपया साइडबार में अपनी जेमिनी एपीआई कुंजी दर्ज करें।",
+        "api_error": "⚠️ सर्वर में API कुंजी नहीं मिली। कृपया Streamlit Cloud सेटिंग्स की जाँच करें।",
         "spinner": "नियम इंजन का विश्लेषण और आपकी रिपोर्ट तैयार की जा रही है...",
         "reset_btn": "🔄 नया मूल्यांकन शुरू करें"
     },
@@ -50,8 +46,6 @@ LANG_DATA = {
         "title": "🏛️ ಮೈಗೌ ಯೋಜನೆ ಸಹಾಯಕಿ",
         "subtitle": "ರಾಜ್ಯ ಮತ್ತು ಕೇಂದ್ರ ಹಣಕಾಸು ಯೋಜನೆಗಳನ್ನು ಅನ್ವೇಷಿಸಲು ನಿಮ್ಮ ಬುದ್ಧಿವಂತ ಮಾರ್ಗದರ್ಶಿ.",
         "progress_text": "ಪ್ರೊಫೈಲ್ ಮೌಲ್ಯಮಾಪನ ಪ್ರಗತಿ",
-        "api_key_label": "ನಿಮ್ಮ ಜೆಮಿನಿ API ಕೀಲಿಯನ್ನು ನಮೂದಿಸಿ:",
-        "api_key_warn": "*(ಅಂತಿಮ ವರದಿಯನ್ನು ರಚಿಸಲು ಅಗತ್ಯವಿದೆ)*",
         "welcome": "ಸ್ವಾಗತ! ಲಭ್ಯವಿರುವ ಸರ್ಕಾರಿ ಯೋಜನೆಗಳನ್ನು ಅನ್ವೇಷಿಸಲು ನಿಮಗೆ ಸಹಾಯ ಮಾಡಲು ನಾನು ಇಲ್ಲಿದ್ದೇನೆ. ಪ್ರಾರಂಭಿಸಲು, ನಿಮ್ಮ ವಯಸ್ಸು ಎಷ್ಟು?",
         "q_gender": "ತಿಳಿಯಿತು. ನಿಮ್ಮ ಲಿಂಗ ಯಾವುದು? (ಟೈಪ್ ಮಾಡಿ: ಪುರುಷ, ಮಹಿಳೆ, ಅಥವಾ ಇತರೆ)",
         "q_occupation": "ನಿಮ್ಮ ಉದ್ಯೋಗ ಏನು? (ಉದಾಹರಣೆಗೆ: ವಿದ್ಯಾರ್ಥಿ, ರೈತ, ಅಸಂಘಟಿತ ಕಾರ್ಮಿಕ, ನಿರುದ್ಯೋಗಿ, ಇತರೆ)",
@@ -62,7 +56,7 @@ LANG_DATA = {
         "q_insurance": "ನೀವು ಈಗಾಗಲೇ ಜೀವ ಅಥವಾ ಆರೋಗ್ಯ ವಿಮೆಯನ್ನು ಹೊಂದಿದ್ದೀರಾ? (ಟೈಪ್ ಮಾಡಿ: ಹೌದು ಅಥವಾ ಇಲ್ಲ)",
         "processing": "ಉತ್ತಮ! ನನ್ನ ಬಳಿ ಎಲ್ಲಾ ವಿವರಗಳಿವೆ. ಡೇಟಾಬೇಸ್ ಅನ್ನು ವಿಶ್ಲೇಷಿಸಲು ನನಗೆ ಒಂದು ಕ್ಷಣ ಕೊಡಿ...",
         "error_input": "⚠️ ನನಗೆ ಸರಿಯಾಗಿ ಅರ್ಥವಾಗಲಿಲ್ಲ. ದಯವಿಟ್ಟು ಹಿಂದಿನ ಪ್ರಶ್ನೆಗೆ ಮಾನ್ಯ ಸಂಖ್ಯೆ ಅಥವಾ ಪಠ್ಯವನ್ನು ನಮೂದಿಸಿ.",
-        "api_error": "⚠️ ಅಂತಿಮ ವರದಿಯನ್ನು ರಚಿಸಲು ದಯವಿಟ್ಟು ಸೈಡ್‌ಬಾರ್‌ನಲ್ಲಿ ನಿಮ್ಮ ಜೆಮಿನಿ API ಕೀಲಿಯನ್ನು ನಮೂದಿಸಿ.",
+        "api_error": "⚠️ ಸರ್ವರ್‌ನಲ್ಲಿ API ಕೀ ಕಂಡುಬಂದಿಲ್ಲ. ದಯವಿಟ್ಟು Streamlit Cloud ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಪರಿಶೀಲಿಸಿ.",
         "spinner": "ನಿಯಮಗಳ ಎಂಜಿನ್ ಅನ್ನು ವಿಶ್ಲೇಷಿಸಲಾಗುತ್ತಿದೆ ಮತ್ತು ನಿಮ್ಮ ವರದಿಯನ್ನು ಸಿದ್ಧಪಡಿಸಲಾಗುತ್ತಿದೆ...",
         "reset_btn": "🔄 ಹೊಸ ಮೌಲ್ಯಮಾಪನವನ್ನು ಪ್ರಾರಂಭಿಸಿ"
     }
@@ -133,8 +127,13 @@ with st.sidebar:
     
     st.divider()
     
-    api_key = st.text_input(LANG_DATA[selected_lang]["api_key_label"], type="password")
-    st.caption(LANG_DATA[selected_lang]["api_key_warn"])
+    # Secure API Key Implementation
+    try:
+        api_key = st.secrets["GEMINI_API_KEY"]
+        st.success("✅ Secure Server Connected")
+    except KeyError:
+        st.error("⚠️ Server key missing!")
+        api_key = None
     
     st.divider()
     # Adding a system status metric to look highly technical
@@ -391,4 +390,3 @@ if st.session_state.step == "processing":
                     
             except Exception as e:
                 st.error(f"API Error: {e}")
-                
